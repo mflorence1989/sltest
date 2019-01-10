@@ -1,8 +1,19 @@
+a{
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: black;
+}
+span{
+  font-weight: 500;
+}
 header{
+
   padding:35px;
-  border-bottom: solid 2px grey;
+  border-bottom: solid 2px #e2e0e0;
   .logo{
 
+    border-radius: 4px;
     text-align: center;
     background: blue;
     color: white;
@@ -17,7 +28,7 @@ header{
       color:white;
       top: 8px;
       right: 9px;
-      font-size: .8rem;
+
       position: absolute;
 
     }
@@ -27,6 +38,7 @@ header{
     position: absolute;
     right: 64px;
     top: 1px;
+    cursor: pointer;
   }
 
   .header-menu{
@@ -38,16 +50,16 @@ header{
     }
     .live{
       span{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
         position: absolute;
-        left: 217px;
+        left: 215px;
         top: 41px;
 
       }
     }
     .schedule{
       span{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
         position: absolute;
         top: 42px;
 
@@ -55,7 +67,7 @@ header{
     }
     .past{
       span{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
         position: absolute;
         top: 42px;
 
@@ -63,7 +75,7 @@ header{
     }
     .draft {
       span{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
         position: absolute;
         top: 42px;
 
@@ -71,10 +83,10 @@ header{
     }
     .all{
       span{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
         position: absolute;
         top: 42px;
-        left: 508px;
+        left: 479px;
       }
     }
 
